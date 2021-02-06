@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Pattern {
+
+     
+	public static void main(String []args) {
+        
+		int number;
+        
+		Scanner scanner = new Scanner(System.in);
+        
+		number = scanner.nextInt();
+        
+		for (int i = number; i > 0; i--) 
+{
+	 
+            for (int j = number; j > i; j--) 
+                
+			System.out.print(j); 
+ 
+            
+		     for (int j = i; j > 0; j--) 
+ 
+	               System.out.print(i); 
+ 
+            
+		System.out.println(); 
+        
+		} 
+     
+	}
+
+}
